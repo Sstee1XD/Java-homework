@@ -14,7 +14,7 @@ public class hw_14 {
 		
 		try {
 			in = new FileInputStream(new File("src/homework14/input.txt"));
-			out = new FileOutputStream(new File("src/homework14/input.txt"));
+			out = new FileOutputStream(new File("src/homework14/output.txt"));
 			
 			int bufferSize = 10;
 			byte[] buffer = new byte[bufferSize];
